@@ -1,0 +1,227 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-dark {
+  background-color: #0d3050 !important;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 30px;
+  left: 16px;
+  top: 16px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #ffffff;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 90% !important;
+  margin-top: 2rem;
+}
+
+.bm-menux {
+  margin-left: -15px;
+  top: -2px;
+
+}
+
+.bm-button-tree {
+  overflow-y: auto;
+  height: 95%;
+}
+
+​​
+
+/* General sidebar styles */
+.bm-menu {
+  background: #ffffff;
+  padding: 0.5em 0.2em 0;
+  font-size: 0.8em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.7em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  color: #d1d1d1;
+  margin-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: #ffffff;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+.table-fixed-head {
+  background-color: #ffffff !important;
+  /* display: none !important; */
+}
+
+.form-check {
+  text-align: center !important;
+}
+
+th {
+  position: sticky;
+  top: 3.9rem;
+  background-color: #FFFFFF;
+  z-index: 1;
+}
+
+
+.layout-Container {
+  padding-top: 4rem;
+}
+
+
+.header-Navbar {
+  width: 75.5%;
+  margin-left: 30.5%
+}
+
+.header-Image {
+  max-height: 100%;
+  position: absolute;
+  top: -75%;
+}
+
+.header-Image img {
+  max-height: 100%;
+  max-width: 100%;
+  margin-left: 40.5%;
+
+}
+
+@media (max-width: 768px) {
+  .header-Image {
+    position: absolute;
+    ;
+    top: -20%;
+  }
+
+  .header-Image img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.header-color-text {
+  color: #ffffff;
+}
+
+.common-button-color {
+  color: black;
+  background-color: #d9ad26;
+}
+
+.common-table {
+  background-color: #0D3050 !important;
+  color: white !important;
+}
+
+.common-table th {
+  color: white !important;
+}
+
+.common-table-td {
+  text-align: center !important;
+}
+
+.common-table-pagination.number {
+  width: 70px !important;
+}
+
+.common-table-pagination.selectPage {
+  width: 80px !important;
+}
+
+.common-file {
+  display: none !important;
+}
+
+.header-nav-color {
+  color: #d9ad26;
+  margin-left: 500.5%
+}
+
+
+.header-label-Exprire {
+  color: #FFFFFF;
+  padding-bottom: 0.3rem;
+}
+
+.header-label-text {
+  color: #F02337;
+  margin-right: 5px;
+  text-shadow: #e10d0d 1px 1px 10px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  /* Elimina los estilos predeterminados de lista */
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Prueba Formulario",
+    "name": "Nombre",
+    "titleAlertDevops": "Seleccione",
+    "send": "Enviar",
+    "cellPhone": "Teléfono Móvil",
+    "email": "Correo Electrónico",
+    "address": "Dirección",
+    "ValidName": "Nombre requerido",
+    "placeholderName": "Ingrese el nombre" 
+}

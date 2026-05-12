@@ -1,0 +1,13 @@
+{
+    "title": "Test Form",
+    "name":"Name",
+    "titleAlertDevops":"Select",
+    "send":"Send",
+    "cellPhone":"Cell Phone",
+    "email":"Email",
+    "address":"Address",
+    "ValidName": "Name is required",
+    "placeholderName": "Enter name" 
+    
+    
+}
